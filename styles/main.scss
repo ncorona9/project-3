@@ -1,0 +1,13 @@
+@import './vendor/normalize';
+
+h1{
+    color:red
+}
+
+
+
+@media (min-width: 768px) {
+    h1{
+        color:blue;
+    }
+}
