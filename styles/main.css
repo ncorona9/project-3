@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -337,30 +338,87 @@ template {
   display: none;
 }
 
-h1 {
-  color: red;
+body {
+  background: #FFFFFF;
+}
+
+nav {
+  background: #FFFFFF;
+  padding: 15px;
+  font-family: sans=serif;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  align-content: center;
+  display: inline;
 }
 
-li {
+nav ul li {
+  padding: 5px;
+  display: inline;
+}
+
+h1 {
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.logo {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.header {
+  background: #5A5A5A;
+  padding: 10px;
+}
+
+.header .header-right {
+  float: right;
+  padding-right: 20px;
+}
+
+.hero-image {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.grid {
+  background: grey;
   display: inline-block;
 }
 
-a {
-  display: block;
-  padding: 5px 10px;
-  text-decoration: none;
-  color: orange;
+.image-1 {
+  margin: 20px;
+  float: left;
 }
 
-@media (min-width: 768px) {
-  h1 {
-    color: blue;
-  }
+.image-2 {
+  margin: 20px;
+  float: right;
+}
+
+.image-3 {
+  margin: 20px;
+  float: left;
+}
+
+.image-4 {
+  margin: 20px;
+  float: right;
 }
 /*# sourceMappingURL=main.css.map */

@@ -25,12 +25,15 @@ nav{
 
 h1{
     color:white;
-    font-family: sans-serif;
-    font-weight: normal;
+    font-family: 'Abril Fatface', cursive;
 }
 
 footer{
+    color: white;
+    background-color: black;
     padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 
@@ -53,44 +56,48 @@ footer{
 }
 
 .hero-image{
-    width: 100px;
-    background: $primary-color;
-
-    .hero-image{
-        text-align: center;
-        padding: 10px;
-        font-family: sans-serif;
-
-        .hero-text{
-            text-align: center;
-            padding: 10px;
-            font-family: sans-serif;
-        }
-    }
+    background-color: $primary-color;
+    width:100%;
+}
+    
+.hero-text{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
 .grid{
     background:$light-background;
     display: inline-block;
-    width:100%;
 
-    .image-1{
-        margin:20px;
-        float:left;
-
-        .image-2{
-            margin:20px;
-            float:right;
-
-            .image-3{
-                margin: 20px;
-                float: left;
-
-                .image-4{
-                    margin: 20px;
-                    float:right;
-                }
-            }
-        }
-    }
 }
+
+
+    
+.image-1{
+    margin:20px;
+    float:left;
+
+}
+
+
+
+.image-2{
+    margin:20px;
+    float:right;
+
+}
+
+
+.image-3{
+    margin: 20px;
+    float: left;
+
+}
+
+
+.image-4{
+    margin: 20px;
+    float: right;
+}
+            
