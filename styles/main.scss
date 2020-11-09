@@ -1,13 +1,96 @@
 @import './vendor/normalize';
+@import './partials/colors';
+@import './partials/typography';
+@import './partials/mixins';
+
+
+
+body{
+    background: $primary-color;
+}
+
+nav{
+    background: $primary-color;
+    padding:15px;
+    font-family:sans=serif;
+    ul{
+        align-content:center;
+        display:inline;
+        li{
+            padding:5px;
+            display:inline;
+        }
+    }
+}
 
 h1{
-    color:red
+    color:white;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+footer{
+    padding: 10px;
 }
 
 
+.logo{
+    border-radius:50%;
+    padding: 10px;
+}
 
-@media (min-width: 768px) {
-    h1{
-        color:blue;
+.header{
+
+    background: $secondary-color;
+    padding: 10px;
+
+    .header-right{
+        float: right;
+        padding-right:20px;
+
+    }
+
+}
+
+.hero-image{
+    width: 100px;
+    background: $primary-color;
+
+    .hero-image{
+        text-align: center;
+        padding: 10px;
+        font-family: sans-serif;
+
+        .hero-text{
+            text-align: center;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+    }
+}
+
+.grid{
+    background:$light-background;
+    display: inline-block;
+    width:100%;
+
+    .image-1{
+        margin:20px;
+        float:left;
+
+        .image-2{
+            margin:20px;
+            float:right;
+
+            .image-3{
+                margin: 20px;
+                float: left;
+
+                .image-4{
+                    margin: 20px;
+                    float:right;
+                }
+            }
+        }
     }
 }
