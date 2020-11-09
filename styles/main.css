@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -343,9 +344,9 @@ body {
 }
 
 nav {
-  background: #FFFFFF;
+  background: #E7B882;
   padding: 15px;
-  font-family: sans=serif;
+  font-family: 'Playfair Display', serif;
 }
 
 nav ul {
@@ -356,6 +357,7 @@ nav ul {
 nav ul li {
   padding: 5px;
   display: inline;
+  color: white;
 }
 
 h1 {
@@ -365,10 +367,10 @@ h1 {
 
 footer {
   color: white;
-  background-color: black;
+  background-color: #312B15;
   padding: 10px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .logo {
@@ -377,11 +379,11 @@ footer {
 }
 
 .header {
-  background: #5A5A5A;
+  background-color: #AB8360;
   padding: 10px;
 }
 
-.header .header-right {
+.header-right {
   float: right;
   padding-right: 20px;
 }
@@ -392,13 +394,13 @@ footer {
 }
 
 .hero-text {
+  font-family: 'Playfair Display', serif;
   text-align: center;
   padding: 10px;
-  font-family: sans-serif;
 }
 
 .grid {
-  background: grey;
+  background: #AB8360;
   display: inline-block;
 }
 

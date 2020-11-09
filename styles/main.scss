@@ -10,15 +10,16 @@ body{
 }
 
 nav{
-    background: $primary-color;
+    background: $light-background;
     padding:15px;
-    font-family:sans=serif;
+    font-family: 'Playfair Display', serif;
     ul{
         align-content:center;
         display:inline;
         li{
             padding:5px;
             display:inline;
+            color:white;
         }
     }
 }
@@ -30,10 +31,10 @@ h1{
 
 footer{
     color: white;
-    background-color: black;
+    background-color:$dark-background;
     padding: 10px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -44,16 +45,15 @@ footer{
 
 .header{
 
-    background: $secondary-color;
+    background-color: $secondary-color;
     padding: 10px;
+}
 
-    .header-right{
+.header-right{
         float: right;
         padding-right:20px;
-
-    }
-
 }
+
 
 .hero-image{
     background-color: $primary-color;
@@ -61,13 +61,13 @@ footer{
 }
     
 .hero-text{
+    font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 10px;
-    font-family: sans-serif;
 }
 
 .grid{
-    background:$light-background;
+    background:$secondary-color;
     display: inline-block;
 
 }
@@ -75,29 +75,27 @@ footer{
 
     
 .image-1{
-    margin:20px;
-    float:left;
+    @include image-grid (left)
 
 }
 
 
 
 .image-2{
-    margin:20px;
-    float:right;
+    @include image-grid (right)
 
 }
 
 
 .image-3{
-    margin: 20px;
-    float: left;
+    @include image-grid (left)
 
 }
 
 
 .image-4{
-    margin: 20px;
-    float: right;
+    @include image-grid (right)
+
 }
             
+
